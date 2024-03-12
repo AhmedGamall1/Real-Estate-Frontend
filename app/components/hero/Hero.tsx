@@ -1,5 +1,4 @@
 import React from "react";
-import houses from "../assets/city.jpg";
 import HeroBtn from "./HeroBtn";
 import { RiSearchLine } from "react-icons/ri";
 
