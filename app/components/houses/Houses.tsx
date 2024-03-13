@@ -19,17 +19,17 @@ const Houses = () => {
     },
   ];
   return (
-    <div className="py-12 px-9 w-[90%] m-auto">
+    <div className="py-12 mt-3 px-9 w-[96%] m-auto">
       <h4 className="text-[24px]  text-slate-950">
         Discover Our Featured Properties
       </h4>
       <p className="text-gray-500 mt-1">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit
       </p>
-      <div className="mt-4 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
-        {houses.map((house: any, index: boolean) => {
-          <HouseCard key={index} house={house} />;
-        })}
+      <div className="mt-8 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+        {houses.map((house: any, index: boolean) => (
+          <HouseCard key={index} house={house} />
+        ))}
       </div>
     </div>
   );
