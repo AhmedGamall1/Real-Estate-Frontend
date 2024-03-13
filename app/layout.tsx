@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} flex flex-col min-h-screen overflow-hidden`}
+        className={`${poppins.className} flex flex-col min-h-screen overflow-x-hidden`}
       >
         <AosProvider>
           <Navbar />
